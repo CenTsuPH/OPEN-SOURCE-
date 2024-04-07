@@ -1,5 +1,4 @@
-#!/usr/bin/python
-#Original written By CENTSU
+
 
 import os,zlib
 from plistlib import UID

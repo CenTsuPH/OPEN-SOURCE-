@@ -231,6 +231,6 @@ phone = random.choice(["Oppo"])
 fbca = random.choice(["armeabi-v7a:armeabi","arm64-v8a:"])
 
 #=======><UA><========#
-CENT = f"{CENT_PH}[FBAN/"+str(rt)+";FBAV/"+str(random.randint(111,458))+".0.0."+str(random.randrange(11,99))+"."+str(random.randint(45,455))+";FBPN/"+str(fbpn)+";FBLC/"+str(fblc)+";FBBV/"+str(random.randint(111111111,999999999))+";FBCR/"+str(fbcr)+";FBMF/"+str(phone)+";FBBD/"+str(phone)+";FBDV/"+str(galaxy)+";FBSV/"+str(random.randint(6,14))+";FBCA/"+str(fbca)+";FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]"
+CENT = f"{CENT_PH}[FBAN/"+str(rt)+";FBAV/"+str(random.randint(111,458))+".0.0."+str(random.randrange(11,99))+"."+str(random.randint(45,455))+";FBPN/"+str(fbpn)+";FBLC/"+str(fblc)+";FBBV/"+str(random.randint(111111111,999999999))+";FBCR/"+str(fbcr)+";FBMF/"+str(phone)+";FBBD/"+str(phone)+";FBDV/"+str(galaxy)+";FBSV/"+str(random.randint(6,14))+";FBCA/"+str(fbca);]"
 print(f"UA- {CENT}")
 print(f"\033[97;1m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
